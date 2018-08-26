@@ -4,6 +4,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.fuzamei.dubboapi.consumer.DemoService;
 import com.fuzamei.dubboapi.pojo.TestBO;
 import com.fuzamei.dubboapi.pojo.UserDO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

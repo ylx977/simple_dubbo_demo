@@ -10,7 +10,9 @@
     <dubbo:application name="provider"/>
 
     <!-- 注册中心的ip地址 -->
-    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
+    <!--zookeeper集群用下面-->
+    <!--<dubbo:registry protocol="zookeeper" address="127.0.0.1:2181,127.0.0.1:2181,127.0.0.1:2181"/>-->
 
     <!--dubbo默认20880端口，如果要部署多个service，则换个端口号然后部署上去-->
     <dubbo:protocol name="dubbo" port="20880"/>
