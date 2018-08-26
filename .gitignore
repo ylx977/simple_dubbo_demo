@@ -1,0 +1,8 @@
+/.idea/
+bootdubbo.iml
+/boot-dubbo-api/target/
+/boot-dubbo-api/boot-dubbo-api.iml
+/boot-dubbo-provider/target/
+/boot-dubbo-provider/boot-dubbo-provider.iml
+/boot-module-consumer/target/
+/boot-module-consumer/boot-module-consumer.iml
