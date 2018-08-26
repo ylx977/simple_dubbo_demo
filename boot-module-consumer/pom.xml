@@ -15,11 +15,19 @@
 
 
     <dependencies>
+        <!--引入本项目的api的jar包-->
         <dependency>
             <groupId>com.fuzamei.dubbo</groupId>
             <artifactId>boot-dubbo-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!--引入本项目的common工具jar包-->
+        <dependency>
+            <groupId>com.fuzamei.dubbo</groupId>
+            <artifactId>boot-dubbo-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web-services</artifactId>
@@ -48,17 +56,6 @@
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-framework</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.fuzamei.dubbo</groupId>
-            <artifactId>boot-dubbo-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fuzamei.dubbo</groupId>
-            <artifactId>boot-dubbo-provider</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <build>

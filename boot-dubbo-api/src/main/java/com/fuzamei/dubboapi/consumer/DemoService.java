@@ -1,6 +1,8 @@
 package com.fuzamei.dubboapi.consumer;
 
+import com.fuzamei.dubboapi.pojo.TestBO;
 import com.fuzamei.dubboapi.pojo.User;
+import com.fuzamei.dubboapi.pojo.UserDO;
 
 /**
  * @author ylx
@@ -13,4 +15,5 @@ public interface DemoService {
     User findUser();
 
 
+    UserDO findUserQuery(TestBO testBO);
 }

@@ -1,5 +1,6 @@
 package com.fuzamei.dubboprovider;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -13,6 +14,7 @@ import java.io.IOException;
  */
 @SpringBootApplication
 @ImportResource(locations = {"classpath:config/spring-dubbo.xml"})
+@MapperScan(basePackages = {"com.fuzamei.dubboprovider.mapper"})
 public class ProviderApplication {
 
     public static void main(String[] args) {
