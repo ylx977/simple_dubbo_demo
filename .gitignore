@@ -6,3 +6,5 @@ bootdubbo.iml
 /boot-dubbo-provider/boot-dubbo-provider.iml
 /boot-module-consumer/target/
 /boot-module-consumer/boot-module-consumer.iml
+/boot-dubbo-common/target/
+/boot-dubbo-common/boot-dubbo-common.iml

@@ -1,10 +1,10 @@
 package com.fuzamei.dubboconsumer.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import consumer.DemoService;
+import com.fuzamei.dubboapi.consumer.DemoService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pojo.User;
+import com.fuzamei.dubboapi.pojo.User;
 
 /**
  * @author ylx

@@ -1,6 +1,6 @@
-package consumer;
+package com.fuzamei.dubboapi.consumer;
 
-import pojo.User;
+import com.fuzamei.dubboapi.pojo.User;
 
 /**
  * @author ylx

@@ -1,8 +1,8 @@
 package com.fuzamei.dubboprovider.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import consumer.DemoService;
-import pojo.User;
+import com.fuzamei.dubboapi.consumer.DemoService;
+import com.fuzamei.dubboapi.pojo.User;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

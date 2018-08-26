@@ -1,4 +1,4 @@
-package pojo;
+package com.fuzamei.dubboapi.pojo;
 
 import lombok.Data;
 

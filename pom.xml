@@ -16,6 +16,7 @@
         <module>boot-dubbo-api</module>
         <module>boot-dubbo-provider</module>
         <module>boot-module-consumer</module>
+        <module>boot-dubbo-common</module>
     </modules>
 
     <!-- 第一步：添加Springboot的parent -->
