@@ -23,7 +23,7 @@ public class DemoConsumerController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return demoService.sayHello("Hello springboot and dubbo!");
+        return demoService.sayHello("Hello springboot and dubboprovider2!");
     }
 
     @RequestMapping("/user")
@@ -35,4 +35,32 @@ public class DemoConsumerController {
     public UserDO findUserById(@RequestBody TestBO testBO){
         return demoService.findUserQuery(testBO);
     }
+
+    @RequestMapping("/testtx")
+    public User testTx(@RequestBody TestBO testBO){
+        User user = new User();
+        try {
+            demoService.updateUser(testBO);
+            user.setUsername("success");
+            return user;
+        }catch (Exception e){
+            user.setUsername("fail");
+            return user;
+        }
+    }
+
+    @RequestMapping("/testtx2")
+    public User testTx2(@RequestBody TestBO testBO){
+        User user = new User();
+        try {
+            demoService.updateUser2(testBO);
+            user.setUsername("success");
+            return user;
+        }catch (Exception e){
+            user.setUsername("fail");
+            return user;
+        }
+    }
+
+
 }

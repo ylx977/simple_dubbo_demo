@@ -13,4 +13,6 @@ public class TestBO implements Serializable{
 
     private Long id;
 
+    private Long id2;
+
 }

@@ -16,4 +16,8 @@ public interface DemoService {
 
 
     UserDO findUserQuery(TestBO testBO);
+
+    void updateUser(TestBO testBO);
+
+    void updateUser2(TestBO testBO);
 }

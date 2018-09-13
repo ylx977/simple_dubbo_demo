@@ -15,4 +15,5 @@ public class DubboCustomerDemo {
     public static void main(String[] args) {
         SpringApplication.run(DubboCustomerDemo.class, args);
     }
+
 }

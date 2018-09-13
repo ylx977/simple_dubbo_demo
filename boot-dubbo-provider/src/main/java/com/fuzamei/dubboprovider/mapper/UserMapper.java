@@ -14,4 +14,5 @@ public interface UserMapper {
 
     UserDO findUserById(@Param("id") Long id);
 
+    int updateUsernameById(@Param("id") Long id);
 }

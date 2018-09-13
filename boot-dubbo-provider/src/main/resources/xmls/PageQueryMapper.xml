@@ -6,4 +6,8 @@
         select * from user_query where id = #{id}
     </select>
 
+    <update id="updateUsernameById" parameterType="java.lang.Long">
+        update user set name = 'jack' where id = #{id}
+    </update>
+
 </mapper>
