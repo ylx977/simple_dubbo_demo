@@ -9,3 +9,8 @@ bootdubbo.iml
 /boot-dubbo-common/target/
 /boot-dubbo-common/boot-dubbo-common.iml
 /logs/
+/boot-dubbo-provider2/boot-dubbo-provider2.iml
+/boot-dubbo-provider2/target/
+/boot-dubbo-provider3/boot-dubbo-provider3.iml
+/boot-dubbo-provider3/target/
+
